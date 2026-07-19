@@ -1,0 +1,25 @@
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Runtime
+logs/
+
+# Editor
+.vscode/
+.idea/
+
+# Misc
+coverage/
+*.tgz
