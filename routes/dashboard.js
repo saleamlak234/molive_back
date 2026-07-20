@@ -261,6 +261,7 @@ router.get("/stats", async (req, res) => {
         status: "completed",
         createdAt: c.createdAt,
         description: c.description,
+        failureReason: c.failureReason || null,
         isManual: c.isManual || false,
         adminName: c.createdByAdmin?.fullName || null,
       })),
